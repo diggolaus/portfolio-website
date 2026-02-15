@@ -38,7 +38,7 @@ function showSlides(n) {
     let autoSlideIntervalId;
     function startAuto() {
         if (autoSlideIntervalId) return;
-        autoSlideIntervalId = setInterval(function() { plusSlides(1); }, 5000);
+        autoSlideIntervalId = setInterval(function() { plusSlides(1); }, 7000);
     }
 
     function init() {
