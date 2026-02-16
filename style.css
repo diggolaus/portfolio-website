@@ -97,7 +97,7 @@ nav ul li.activeNav a {
 .slideshow-img {
   object-fit: cover;
   height: 100%;
-  width: 100vw
+  width: 100vw;
 }
 
 
