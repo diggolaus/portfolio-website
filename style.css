@@ -325,6 +325,14 @@ input[type=submit]:hover {
   padding: 0 10px;
 }
 
+.illustration-title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-weight: lighter;
+  font-size: 1.4em;
+}
+
 .column {
   -ms-flex: 33%;
   flex: 33%;
@@ -340,8 +348,8 @@ input[type=submit]:hover {
 div.gallery-item  p{
   text-align: center;
   color: rgb(65, 65, 65);
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 7px;
+  margin-bottom: 20px;
   font-size: 1.3em;
 }
 
@@ -349,10 +357,19 @@ div.gallery-item:hover {
   opacity: 0.5;
 }
 
+.coding-column {
+  display: flex;
+  width: 33%;
+  padding: 40px 7px 0 7px;
+}
+
 .project-item {
   border: 1px solid #3131317a;
   border-radius: 20px;
   padding: 40px;
+  flex: 1;
+  vertical-align: middle;
+  width: 100%;
 }
 .project-item h3 {
   margin-top: 0;
@@ -375,7 +392,9 @@ div.gallery-item:hover {
     flex: 50%;
     max-width: 50%;
   }
-
+  .coding-column {
+    width: 50%;
+  }
   .slideshow-container {
     height: 60vw;
     flex-wrap: nowrap;
@@ -426,7 +445,9 @@ div.gallery-item:hover {
     flex: 100%;
     max-width: 100%;
   }
-
+  .coding-column {
+    width: 100%;
+  }
 
   .slideshow-container {
     height: 90vw;
