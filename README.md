@@ -5,6 +5,6 @@ Contact form is implemented using Formspark and Botpoison.
 
 Static hosting by Porkbun.
 
-All images created by me.
+All images created or ownedby me.
 
 Languages: HTML, CSS, Javascript
